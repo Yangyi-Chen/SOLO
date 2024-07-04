@@ -1,1 +1,1 @@
-# S-LVLM
+# SOLO
