@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://arxiv.org/abs/TODO">📃 Paper</a>
 •
-<a href="https://huggingface.co/xingyaoww/SOLO-7B" >🤗 Model (SOLO-7B)</a>
+<a href="https://huggingface.co/YangyiYY/SOLO-7B" >🤗 Model (SOLO-7B)</a>
 </p>
 
 
@@ -20,7 +20,7 @@ SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without*
 
 &nbsp; ✅ **Release the [pre-training code](https://github.com/Yangyi-Chen/SOLO/blob/main/PRETRAIN_GUIDE.md)**
 
-&nbsp; ✅ **Release the SOLO model** <a href="https://huggingface.co/xingyaoww/SOLO-7B" >🤗 Model (SOLO-7B)</a>
+&nbsp; ✅ **Release the SOLO model** <a href="https://huggingface.co/YangyiYY/SOLO-7B" >🤗 Model (SOLO-7B)</a>
 
 &nbsp; ✅ **Paper on arxiv** <a href="https://arxiv.org/abs/TODO">📃 Paper</a>
 
