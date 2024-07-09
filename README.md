@@ -54,7 +54,9 @@ Check [`scripts/notebook/demo.ipynb`](scripts/notebook/demo.ipynb) for an exampl
 
 ## Pre-Training
 
-Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about how to perform pre-training.
+Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about how to perform pre-training. The following table documents the data statistics in pre-training:
+
+![](images/pre_train_stat.png)
 
 ## Citation
 If you use or extend our work, please consider citing our paper.
