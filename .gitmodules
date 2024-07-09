@@ -2,3 +2,7 @@
 	path = Multimodal-Mistral
 	url = https://github.com/Yangyi-Chen/Multimodal-Mistral
 	branch = megatron
+[submodule "Megatron-LLM"]
+	path = Megatron-LLM
+	url = https://github.com/xingyaoww/Megatron-LLM.git
+	branch = mmistral
