@@ -6,6 +6,11 @@
 <a href="https://huggingface.co/xingyaoww/SOLO-7B" >🤗 Model (SOLO-7B)</a>
 </p>
 
+
+![](images/fig1.png)
+We present **SOLO**, a **single Transformer architecture for unified and end-to-end vision-language modeling**.
+SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without* using a separate pre-trained vision encoder.
+
 ## Setup
 
 ### Clone Repo
@@ -30,7 +35,7 @@ pip install -r requirements.txt
 
 ## Inference SOLO with huggingface transformers
 
-Then you can run [`scripts/notebook/hf_model_infer.ipynb`](scripts/notebook/hf_model_infer.ipynb) to perform inference on the model.
+Check [`scripts/notebook/demo.ipynb`](scripts/notebook/demo.ipynb) for an example of performing inference on the model.
 
 
 ## Training
