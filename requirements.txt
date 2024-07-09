@@ -1,0 +1,20 @@
+datasets
+pillow
+# for mmc4
+python-magic
+tqdm
+pandas
+requests
+braceexpand
+Pillow
+lapjv
+img2dataset
+# 
+sentencepiece
+torchvision
+seaborn
+ujson
+# for data processing
+zstandard
+lz4
+

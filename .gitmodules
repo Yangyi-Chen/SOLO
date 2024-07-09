@@ -1,0 +1,4 @@
+[submodule "Multimodal-Mistral"]
+	path = Multimodal-Mistral
+	url = https://github.com/Yangyi-Chen/Multimodal-Mistral
+	branch = megatron
