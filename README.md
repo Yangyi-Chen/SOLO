@@ -43,7 +43,14 @@ Check [`scripts/notebook/demo.ipynb`](scripts/notebook/demo.ipynb) for an exampl
 Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about how to perform pre-training.
 
 ## Citations
-
+If you use or extend our work, please consider citing our paper.
+<!---
 ```bibtex
-TODO
+@article{chen2024solo,
+      title={A Single Transformer for Scalable Vision-Language Modeling}, 
+      author={Chen, Yangyi and Wang, Xingyao and Peng, Hao and Ji, Heng},
+      journal={arXiv preprint arXiv:2405.20974},
+      year={2024}
+}
 ```
+-->
