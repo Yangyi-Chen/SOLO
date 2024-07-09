@@ -8,7 +8,7 @@
 
 
 ![](images/fig1.png)
-We present **SOLO**, a **single Transformer architecture for unified and end-to-end vision-language modeling**.
+We present **SOLO**, a **single Transformer architecture for unified vision-language modeling**.
 SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without* using a separate pre-trained vision encoder.
 
 ## Setup
