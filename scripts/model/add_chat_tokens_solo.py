@@ -9,9 +9,9 @@ from transformers.convert_slow_tokenizer import import_protobuf
 # add the same directory
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from modeling_multimodal_mistral import (
-    MultimodalMistralConfig,
-    MultimodalMistralForCausalLM
+from scripts.model.modeling_solo import (
+    SoloConfig,
+    SoloForCausalLM
 )
 
 if __name__ == "__main__":
@@ -56,11 +56,11 @@ if __name__ == "__main__":
     tokenizer: LlamaTokenizer = LlamaTokenizer.from_pretrained(args.output_dir)
     
     # === Config ===
-    config = MultimodalMistralConfig.from_pretrained(args.ckpt_dir)
+    config = SoloConfig.from_pretrained(args.ckpt_dir)
     print(config)
 
     # === Model ===
-    model = MultimodalMistralForCausalLM.from_pretrained(args.ckpt_dir, config=config)
+    model = SoloForCausalLM.from_pretrained(args.ckpt_dir, config=config)
     model.resize_token_embeddings(len(tokenizer))
 
     # === Update config vocab size ===

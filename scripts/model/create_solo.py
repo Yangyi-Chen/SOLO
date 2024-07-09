@@ -10,8 +10,8 @@ from transformers.convert_slow_tokenizer import import_protobuf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from modeling_multimodal_mistral import (
-    MultimodalMistralConfig,
-    MultimodalMistralForCausalLM
+    SoloConfig,
+    SoloForCausalLM
 )
 
 if __name__ == "__main__":
@@ -68,12 +68,12 @@ if __name__ == "__main__":
     
     # === Config ===
     config_dict, _ = MistralConfig.get_config_dict(args.ckpt_dir)
-    config_dict["architectures"] = ["MultimodalMistralForCausalLM"]
-    config = MultimodalMistralConfig.from_dict(config_dict)
+    config_dict["architectures"] = ["SoloForCausalLM"]
+    config = SoloConfig.from_dict(config_dict)
     print(config)
 
     # === Model ===
-    model = MultimodalMistralForCausalLM.from_pretrained(args.ckpt_dir, config=config)
+    model = SoloForCausalLM.from_pretrained(args.ckpt_dir, config=config)
     model.resize_token_embeddings(len(tokenizer))
 
     # === Update config vocab size ===

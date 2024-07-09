@@ -22,7 +22,7 @@ from transformers.models.mistral.modeling_mistral import (
 logger = logging.get_logger(__name__)
 
 
-class MultimodalMistralConfig(PretrainedConfig):
+class SoloConfig(PretrainedConfig):
     r"""
     This is the configuration class to store the configuration of a [`MistralModel`]. It is used to instantiate an
     Mistral model according to the specified arguments, defining the model architecture. Instantiating a configuration
@@ -84,10 +84,10 @@ class MultimodalMistralConfig(PretrainedConfig):
             The size of the vision patch.
 
     ```python
-    >>> from transformers import MultimodalMistralModel, MultimodalMistralConfig
+    >>> from transformers import MultimodalMistralModel, SoloConfig
 
     >>> # Initializing a Mistral 7B style configuration
-    >>> configuration = MultimodalMistralConfig()
+    >>> configuration = SoloConfig()
 
     >>> # Initializing a model from the Mistral 7B style configuration
     >>> model = MultimodalMistralModel(configuration)
@@ -153,7 +153,7 @@ class MultimodalMistralConfig(PretrainedConfig):
 
 
 class MultimodalMistralModel(MistralModel):
-    def __init__(self, config: MultimodalMistralConfig):
+    def __init__(self, config: SoloConfig):
         # skip the init of MistralModel and call the init of its parent class
         super(MistralModel, self).__init__(config)
 
@@ -393,8 +393,8 @@ class MultimodalMistralModel(MistralModel):
         )
 
 
-class MultimodalMistralForCausalLM(MistralForCausalLM):
-    def __init__(self, config: MultimodalMistralConfig):
+class SoloForCausalLM(MistralForCausalLM):
+    def __init__(self, config: SoloConfig):
         super().__init__(config)
 
         self.model = MultimodalMistralModel(config)
