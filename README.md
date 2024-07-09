@@ -47,16 +47,16 @@ OR simply
 pip install -r requirements.txt
 ```
 
-## Inference SOLO with huggingface transformers
+## SOLO Inference with Huggingface
 
 Check [`scripts/notebook/demo.ipynb`](scripts/notebook/demo.ipynb) for an example of performing inference on the model.
 
 
-## Training
+## Pre-Training
 
 Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about how to perform pre-training.
 
-## Citations
+## Citation
 If you use or extend our work, please consider citing our paper.
 <!---
 ```bibtex
