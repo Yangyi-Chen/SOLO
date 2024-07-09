@@ -9,7 +9,7 @@ from transformers.convert_slow_tokenizer import import_protobuf
 # add the same directory
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from modeling_multimodal_mistral import (
+from scripts.model.modeling_solo import (
     SoloConfig,
     SoloForCausalLM
 )
