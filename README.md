@@ -11,6 +11,20 @@
 We present **SOLO**, a **single Transformer architecture for unified vision-language modeling**.
 SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without* using a separate pre-trained vision encoder.
 
+
+## TODO Roadmap
+  
+- [ ] **Release the code for instruction tuning**
+
+- [ ] **Release the instruction tuning data mixture**
+
+&nbsp; ✅ **Release the [pre-training code](https://github.com/Yangyi-Chen/SOLO/blob/main/PRETRAIN_GUIDE.md)**
+
+&nbsp; ✅ **Release the SOLO model** <a href="https://huggingface.co/xingyaoww/SOLO-7B" >🤗 Model (SOLO-7B)</a>
+
+&nbsp; ✅ **Paper on arxiv** <a href="https://arxiv.org/abs/TODO">📃 Paper</a>
+
+
 ## Setup
 
 ### Clone Repo
