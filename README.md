@@ -1,7 +1,7 @@
 <h1 align="center"> SOLO: A Single Transformer for Scalable <br> Vision-Language Modeling </h1>
 
 <p align="center">
-<a href="https://arxiv.org/abs/TODO">📃 Paper</a>
+<a href="https://arxiv.org/abs/2407.06438">📃 Paper</a>
 •
 <a href="https://huggingface.co/YangyiYY/SOLO-7B" >🤗 Model (SOLO-7B)</a>
 </p>
@@ -22,7 +22,7 @@ SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without*
 
 &nbsp; ✅ **Release the SOLO model** <a href="https://huggingface.co/YangyiYY/SOLO-7B" >🤗 Model (SOLO-7B)</a>
 
-&nbsp; ✅ **Paper on arxiv** <a href="https://arxiv.org/abs/TODO">📃 Paper</a>
+&nbsp; ✅ **Paper on arxiv** <a href="https://arxiv.org/abs/2407.06438">📃 Paper</a>
 
 
 ## Setup
@@ -60,13 +60,12 @@ Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about ho
 
 ## Citation
 If you use or extend our work, please consider citing our paper.
-<!---
 ```bibtex
 @article{chen2024solo,
       title={A Single Transformer for Scalable Vision-Language Modeling}, 
       author={Chen, Yangyi and Wang, Xingyao and Peng, Hao and Ji, Heng},
-      journal={arXiv preprint arXiv:2405.20974},
+      journal={arXiv preprint arXiv:2407.06438},
       year={2024}
 }
 ```
--->
+
