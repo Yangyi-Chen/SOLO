@@ -1,6 +1,6 @@
 # Pretrain Guide
 
-## Data Proprocessing
+## Data Processing
 
 1. All the raw data should be processed to a unified [OpenAI chat completion format](https://platform.openai.com/docs/api-reference/chat) we supported. See [this](scripts/data/cc3m/process_llava_cc3m.py) for example.
 Image will be reshaped and formatted as `base64` string for next step. Raw data will typically stored as `jsonl` or `jsonl.gz` (a compressed version), where each line is (there might be some variance - but the next step should be pretty agnostic to this):
