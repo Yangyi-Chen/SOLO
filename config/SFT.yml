@@ -1,0 +1,28 @@
+output_dir: data/ckpt/SFT
+
+
+
+data:
+  data_module: SFTModule
+  max_position_embeddings: 4096
+  batch_size: 1
+  num_workers: 8
+  train_data: YOUR_TRAIN_DATA
+  img_dir: YOUR_IMG_DIR
+
+
+model:
+  checkpoint: YOUR_CHECKPOINT_PATH
+
+logger:
+  proj_dir: YOUR_PROJECT_DIR
+
+
+
+training:
+  max_epochs: 1
+  accumulate_grad_batches: 64
+  checkpoint_every_n_steps: 10000
+  weight_decay: 0.05
+  lr: 0.00001
+

@@ -17,4 +17,6 @@ ujson
 # for data processing
 zstandard
 lz4
+accelerate
+transformers
 
