@@ -13,10 +13,9 @@ SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without*
 
 
 ## TODO Roadmap
-  
-- [ ] **Release the code for instruction tuning**
-
 - [ ] **Release the instruction tuning data mixture**
+
+&nbsp; ✅ **Release the [code for instruction tuning](https://github.com/Yangyi-Chen/SOLO/blob/main/SFT_GUIDE.md)**
 
 &nbsp; ✅ **Release the [pre-training code](https://github.com/Yangyi-Chen/SOLO/blob/main/PRETRAIN_GUIDE.md)**
 
@@ -57,6 +56,13 @@ Check [`scripts/notebook/demo.ipynb`](scripts/notebook/demo.ipynb) for an exampl
 Please refer to [PRETRAIN_GUIDE.md](PRETRAIN_GUIDE.md) for more details about how to perform pre-training. The following table documents the data statistics in pre-training:
 
 ![](images/pre_train_stat.png)
+
+## Instruction Fine-Tuning
+
+Please refer to [SFT_GUIDE.md](SFT_GUIDE.md) for more details about how to perform instruction fine-tuning. The following table documents the data statistics in instruction fine-tuning:
+
+![](images/sft_stat.png)
+
 
 ## Citation
 If you use or extend our work, please consider citing our paper.
