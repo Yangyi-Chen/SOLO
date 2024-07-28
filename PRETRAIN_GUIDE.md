@@ -45,7 +45,7 @@ git clone https://huggingface.co/mistralai/Mistral-7B-v0.1
 
 2. Convert Mistral (LLM) to MMistral (multi-modal version we built, aka SOLO), It will create new tokenizers and resize embedding for multimodal purpose:
 ```bash
-python3 scripts/model/create_mmistral.py
+python3 scripts/model/create_solo.py
 ```
 
 
