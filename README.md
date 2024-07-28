@@ -67,11 +67,11 @@ Please refer to [SFT_GUIDE.md](SFT_GUIDE.md) for more details about how to perfo
 ## Citation
 If you use or extend our work, please consider citing our paper.
 ```bibtex
-@article{chen2024solo,
-      title={A Single Transformer for Scalable Vision-Language Modeling}, 
-      author={Chen, Yangyi and Wang, Xingyao and Peng, Hao and Ji, Heng},
-      journal={arXiv preprint arXiv:2407.06438},
-      year={2024}
+@article{chen2024single,
+  title={A Single Transformer for Scalable Vision-Language Modeling},
+  author={Chen, Yangyi and Wang, Xingyao and Peng, Hao and Ji, Heng},
+  journal={arXiv preprint arXiv:2407.06438},
+  year={2024}
 }
 ```
 
