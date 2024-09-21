@@ -13,8 +13,8 @@ MAX_RESOLUTION = 1024 # 32 * 32
 def get_resize_output_image_size(
     image_size,
 ) -> tuple:
-    #
-    return 1024, 1024
+    # 
+    # return 1024, 1024 # for ablation study of image resolution
     l1, l2 = image_size # 540, 32
     short, long = (l2, l1) if l2 <= l1 else (l1, l2)
 
