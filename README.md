@@ -1,4 +1,4 @@
-<h1 align="center"> SOLO: A Single Transformer for Scalable <br> Vision-Language Modeling </h1>
+<h1 align="center"> [TMLR] SOLO: A Single Transformer for Scalable <br> Vision-Language Modeling </h1>
 
 <p align="center">
 <a href="https://arxiv.org/abs/2407.06438">📃 Paper</a>
@@ -13,7 +13,7 @@ SOLO accepts both raw image patches (in *pixels*) and texts as inputs, *without*
 
 
 ## TODO Roadmap
-- [ ] **Release the instruction tuning data mixture**
+&nbsp; ✅ **Release the instruction tuning data mixture**
 
 &nbsp; ✅ **Release the [code for instruction tuning](https://github.com/Yangyi-Chen/SOLO/blob/main/SFT_GUIDE.md)**
 
